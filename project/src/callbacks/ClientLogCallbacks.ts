@@ -82,19 +82,6 @@ export class ClientLogCallbacks {
     }
 
     private handleClientLog() {
-        this.botConfig.maxBotCap = {
-            default: 7,
-        };
-        this.botConfig.durability.assault.armor.maxDelta = 70;
-        this.botConfig.durability.assault.weapon.lowestMax = 30;
-        this.pmcConfig.maxBackpackLootTotalRub = [
-            {
-                min: 1,
-                max: 100,
-                value: 20000,
-            },
-        ];
-        this.insuranceConfig.returnChancePercent["54cb50c76803fa8b248b4571"] = 10;
-        this.insuranceConfig.returnChancePercent["54cb57776803fa99248b456e"] = 10;
+        // Intentionally empty: mods may patch this method, so the signature stays.
     }
 }
