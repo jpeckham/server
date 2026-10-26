@@ -271,7 +271,7 @@ export class HealthController {
      * @param sessionID
      */
     public applyWorkoutChanges(pmcData: IPmcData, info: IWorkoutData, sessionId: string): void {
-        // https://dev.sp-tarkov.com/SPT/Server/issues/2674
+        // https://github.com/SP-Tushonka/server/issues/2674
         // TODO:
         // Health effects (fractures etc) are handled in /player/health/sync.
         pmcData.Skills.Common = info.skills.Common;
